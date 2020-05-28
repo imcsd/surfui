@@ -5,7 +5,7 @@
   "main": "./scss/index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass ./scss/index.scss ./dist/surfui.css && sass ./scss/index.scss ./dist/surfui.min.css --style compressed"
+    "build": "sass ./scss/index.scss ./dist/surfui.css && sass ./scss/index.scss ./dist/surfui.min.css --style compressed && sass ./scss/surfui.core.scss ./dist/surfui.core.css && sass ./scss/surfui.core.scss ./dist/surfui.core.min.css --style compressed"
   },
   "repository": {
     "type": "git",
