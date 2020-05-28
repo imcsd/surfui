@@ -1,0 +1,28 @@
+{
+  "name": "surfui",
+  "version": "1.0.0",
+  "description": "Surf UI is an lightweight CSS framework, it's fork from bootstrap and simplify bootstrap.",
+  "main": "./scss/bootstrap.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass ./scss/bootstrap.scss ./dist/sui.css && sass ./scss/bootstrap.scss ./dist/sui.min.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcsd/surfui.git"
+  },
+  "keywords": [
+    "UI",
+    "CSS",
+    "Framework"
+  ],
+  "author": "icsd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imcsd/surfui/issues"
+  },
+  "homepage": "https://github.com/imcsd/surfui#readme",
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}
