@@ -2,10 +2,10 @@
   "name": "surfui",
   "version": "1.0.0",
   "description": "Surf UI is an lightweight CSS framework, it's fork from bootstrap and simplify bootstrap.",
-  "main": "./scss/bootstrap.scss",
+  "main": "./scss/index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass ./scss/bootstrap.scss ./dist/surfui.css && sass ./scss/bootstrap.scss ./dist/surfui.min.css --style compressed"
+    "build": "sass ./scss/index.scss ./dist/surfui.css && sass ./scss/index.scss ./dist/surfui.min.css --style compressed"
   },
   "repository": {
     "type": "git",
