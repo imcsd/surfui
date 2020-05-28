@@ -8,7 +8,7 @@ Surf UI is used for the same API (class name) as bootstrap and the following fun
 
 - All JavaScript function and plugins
 - carousel
-
+- custom-forms
 - popover
 
 Surf UI is used for the same API (class name) as bootstrap, meanwhile you can learn Surf UI by reading the [Bootstrap official document](https://getbootstrap.com/docs/4.5/layout/overview/).
