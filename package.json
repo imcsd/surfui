@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/imcsd/surfui#readme",
   "devDependencies": {
-    "sass": "^1.26.5"
+    "sass": "^1.35.1"
   }
 }
