@@ -81,3 +81,12 @@ npm run build
 
 Then the target CSS will output in `dist` directory.
 
+
+
+## Change Log
+
+V 1.0.1 2021-06-22
+
+1. Upgrade bootstrap to 4.6.0;
+2. Remove list-group;
+3. Remove utilities/flex;
