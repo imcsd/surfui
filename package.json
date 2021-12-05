@@ -1,6 +1,6 @@
 {
   "name": "surfui",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Surf UI is an lightweight CSS framework, it's fork from bootstrap and simplify bootstrap.",
   "main": "./scss/index.scss",
   "scripts": {
