@@ -50,6 +50,7 @@ Compare with core verison, the mp version is a wechat mini program implement of 
 - type
 - close
 - print
+- input-group
 
 
 Surf UI is used for the same API (class name) as bootstrap, meanwhile you can learn Surf UI by reading the [Bootstrap official document](https://getbootstrap.com/docs/4.5/layout/overview/).
