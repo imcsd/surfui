@@ -5,7 +5,11 @@
   "main": "./scss/index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass ./scss/index.scss ./dist/surfui.css && sass ./scss/index.scss ./dist/surfui.min.css --style compressed && sass ./scss/surfui.core.scss ./dist/surfui.core.css && sass ./scss/surfui.core.scss ./dist/surfui.core.min.css --style compressed && sass ./scss/surfui.base.scss ./dist/surfui.base.css && sass ./scss/surfui.base.scss ./dist/surfui.base.min.css --style compressed"
+    "build": "npm run build-full && npm run build-core && npm run build-base && npm run build-mp",
+    "build-full": "sass ./scss/index.scss ./dist/surfui.css && sass ./scss/index.scss ./dist/surfui.min.css --style compressed",
+    "build-core": "sass ./scss/surfui.core.scss ./dist/surfui.core.css && sass ./scss/surfui.core.scss ./dist/surfui.core.min.css --style compressed",
+    "build-base": "sass ./scss/surfui.base.scss ./dist/surfui.base.css && sass ./scss/surfui.base.scss ./dist/surfui.base.min.css --style compressed",
+    "build-mp": "sass ./scss/surfui.mp.scss ./dist/surfui.mp.css && sass ./scss/surfui.mp.scss ./dist/surfui.mp.min.css --style compressed"
   },
   "repository": {
     "type": "git",

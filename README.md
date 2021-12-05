@@ -24,13 +24,30 @@ In addition, the core version of Surf UI also removed the following component:
 - modal
 - tooltip
 
-The base version of Surf UI also removed the following component (Just reserve guid and utilities):
+Compare with core verison, the base version of Surf UI also removed the following component (Just reserve guid and utilities):
 - type
 - table
 - buttons
 - transitions
 - button-group
 - input-group
+- close
+- print
+
+Compare with core verison, the mp version is a wechat mini program implement of Surf UI, and also removed the following component:
+- nav
+- navbar
+- card
+- pagination
+- jumbotron
+- alert
+- media
+- toasts
+- modal
+- tooltip
+- tables
+- transitions
+- type
 - close
 - print
 
