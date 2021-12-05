@@ -24,6 +24,17 @@ In addition, the core version of Surf UI also removed the following component:
 - modal
 - tooltip
 
+The base version of Surf UI also removed the following component (Just reserve guid and utilities):
+- type
+- table
+- buttons
+- transitions
+- button-group
+- input-group
+- close
+- print
+
+
 Surf UI is used for the same API (class name) as bootstrap, meanwhile you can learn Surf UI by reading the [Bootstrap official document](https://getbootstrap.com/docs/4.5/layout/overview/).
 
 
