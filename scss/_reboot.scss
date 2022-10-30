@@ -22,6 +22,12 @@
   box-sizing: border-box; // 1
 }
 
+// [Fixed] Due to Mini program not support universal selector, set all box-sizing of 
+// view tag to border-box.
+view {
+  box-sizing: border-box;
+}
+
 html {
   font-family: sans-serif; // 2
   line-height: 1.15; // 3
